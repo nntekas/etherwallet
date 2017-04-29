@@ -233,31 +233,31 @@ DEP_signtx                  : 'Sign Transaction ',
 DEP_interface               : 'Generated Interface ',
 
 /* Swap / Exchange */
-SWAP_rates                  : "Current Rates ",
+SWAP_rates                  : "Τρέχουσες τιμές ",
 SWAP_init_1                 : "I want to swap my ",
 SWAP_init_2                 : " for ", // "I want to swap my X ETH for X BTC"
-SWAP_init_CTA               : "Let's do this! ", // or "Continue"
-SWAP_information            : "Your Information ",
-SWAP_send_amt               : "Amount to send ",
+SWAP_init_CTA               : "Ας το κάνουμε! ", // or "Continue"
+SWAP_information            : "Οι πληροφορίες σου ",
+SWAP_send_amt               : "Ποσό για αποστολή ",
 SWAP_rec_amt                : "Amount to receive ",
 SWAP_your_rate              : "Your rate ",
-SWAP_rec_add                : "Your Receiving Address ",
+SWAP_rec_add                : "Η διεύθυνση παραλαβής σας ",
 SWAP_start_CTA              : "Start Swap ",
 SWAP_ref_num                : "Your reference number ",
 SWAP_time                   : "Time remaining to send ",
 SWAP_progress_1             : "Order Initiated ",
-SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
-SWAP_progress_3             : "Received! ", // ETH Received!
+SWAP_progress_2             : "Αναμονή για σας ", // Waiting for your BTC...
+SWAP_progress_3             : "Ελήφθη! ", // ETH Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
-SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_progress_5             : "Η παραγγελία ολοκληρώθηκε ",
+SWAP_order_CTA              : "Παρακαλώ στείλε ", // Please send 1 ETH...
 SWAP_unlock                 : "Unlock your wallet to send ETH or Tokens directly from this page. ",
 
 /* Sign Message */
-MSG_message                 : 'Message ',
-MSG_date                    : 'Date ',
-MSG_signature               : 'Signature ',
-MSG_verify                  : 'Verify Message ',
+MSG_message                 : 'Μήνυμα ',
+MSG_date                    : 'Ημερομηνία ',
+MSG_signature               : 'Υπογραφή ',
+MSG_verify                  : 'Επαλήθευση μηνύματος ',
 MSG_info1                   : 'Include the current date so the signature cannot be reused on a different date. ',
 MSG_info2                   : 'Include your nickname and where you use the nickname so someone else cannot use it. ',
 MSG_info3                   : 'Include a specific reason for the message so it cannot be reused for a different purpose. ',
@@ -265,8 +265,8 @@ MSG_info3                   : 'Include a specific reason for the message so it c
 /* Mnemonic */
 MNEM_1                      : 'Please select the address you would like to interact with. ',
 MNEM_2                      : 'Your single HD mnemonic phrase can access a number of wallets / addresses. Please select the address you would like to interact with at this time. ',
-MNEM_more                   : 'More Addresses ',
-MNEM_prev                   : 'Previous Addresses ',
+MNEM_more                   : 'Περισσότερες διευθύνσεις ',
+MNEM_prev                   : 'Προηγούμενες διευθύνσεις ',
 
 /* Hardware wallets */
 x_Ledger                    : 'Ledger Nano S ',
@@ -276,9 +276,9 @@ ADD_Ledger_3                : 'Verify that Browser Support is enabled in Setting
 ADD_Ledger_4                : 'If no Browser Support is found in settings, verify that you have [Firmware >1.2](https://www.ledgerwallet.com/apps/manager) ',
 ADD_Ledger_0a               : 'Re-open MyEtherWallet on a secure (SSL) connection ',
 ADD_Ledger_0b               : 'Re-open MyEtherWallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
-ADD_Ledger_scan             : 'Connect to Ledger Nano S ',
+ADD_Ledger_scan             : 'Σύνδεση με Ledger Nano S ',
 x_Trezor                    : 'TREZOR ',
-ADD_Trezor_scan             : 'Connect to TREZOR ',
+ADD_Trezor_scan             : 'Σύνδεση με TREZOR ',
 ADD_Trezor_select           : 'This is a TREZOR seed ',
 
 /* Error Messages */
@@ -577,7 +577,7 @@ HELP_SecCX_Desc_4           : 'The address, nickname, private key is stored in c
 HELP_SecCX_Desc_5           : 'Why aren\'t the nickname and wallet address encrypted? ',
 HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use MyEtherWallet.com instead of this Chrome Extension. ',
 
-HELP_Sec_Title              : 'Security ',
+HELP_Sec_Title              : 'Ασφάλεια ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
 HELP_Sec_Desc_3             : 'We aren\'t going to take your money or steal your private key(s). There is no malicious code on this site. In fact the "GENERATE WALLET" pages are completely client-side. That means that all the code is executed on ** your computer** and it is never saved and transmitted anywhere. ',
@@ -586,8 +586,8 @@ HELP_Sec_Desc_5             : 'For generating wallets, you can download the [sou
 HELP_Sec_Desc_6             : 'Generate a test wallet and check and see what network activity is happening. The easiest way for you to do this is to right click on the page and click "inspect element". Go to the "Network" tab. Generate a test wallet. You will see there is no network activity. You may see something happening that looks like data:image/gif and data:image/png. Those are the QR codes being generated...on your computer...by your computer. No bytes were transferred. ',
 HELP_Sec_Desc_8             : 'If you do not feel comfortable using this tool, then by all means, do not use it. We created this tool as a helpful way for people to generate wallets and make transactions without needing to dive into command line or run a full node. Again, feel free to reach out if you have concerns and we will respond as quickly as possible. Thanks! ',
 
-HELP_FAQ_Title              : 'More Helpful Answers to Frequent Questions ',
-HELP_Contact_Title          : 'Ways to Get in Touch'
+HELP_FAQ_Title              : 'Περισσότερες χρήσιμες απαντήσεις σε συχνές ερωτήσεις ',
+HELP_Contact_Title          : 'Τρόποι για να έρθετε σε επαφή'
 };
 
 module.exports = el;
